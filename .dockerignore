@@ -1,0 +1,68 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artifacts that might be large
+*.wav
+*.mp3
+*.flac
+*.tar
+*.npy
+mit_rirs/
+audioset/
+audioset_16k/
+fma/
+my_custom_model/
+openwakeword_features_*.npy
+validation_set_features.npy
+
+# Model files
+*.tflite
+*.onnx
+*.pt
+*.pth
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
